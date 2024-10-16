@@ -1,15 +1,8 @@
-# 💻 Personal Portfolio
+# React + Vite
 
-This is my personal portfolio website built using **React**, **Tailwind CSS**, and **Framer Motion**. The project showcases my skills, projects, and achievements as a backend developer, with a focus on clean, responsive design and smooth animations.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🌟 Key Features
+Currently, two official plugins are available:
 
-- **Modern UI/UX**: Designed with Tailwind CSS for a sleek and responsive interface.
-- **Interactive Animations**: Leveraging Framer Motion to add smooth transitions and dynamic elements.
-- **Project Highlights**: Featuring key projects that demonstrate my experience and expertise.
-- **Responsive Design**: Optimized for viewing on different devices, ensuring a seamless experience across platforms.
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React, Tailwind CSS, Framer Motion
-- **Version Control**: Git, GitHub
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
