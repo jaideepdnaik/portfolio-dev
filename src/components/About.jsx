@@ -11,12 +11,16 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex items-center justify-center">
-            <img src={aboutImage} alt="About Picture" className="w-[290px] h-[350px] rounded-2xl" />
+            <img
+              src={aboutImage}
+              alt="About Picture"
+              className="w-[290px] h-[350px] lg:ml-14 rounded-2xl"
+            />
           </div>
-          <div className="w-full lg:w-1/2">
-            <div className="flex justify-center lg:justify-start">
-                <p>{ABOUT_TEXT}</p>
-            </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <div className="flex justify-center lg:justify-start">
+            <p className="text-sm max-w-xl font-light tracking-tighter">{ABOUT_TEXT}</p>
           </div>
         </div>
       </div>
