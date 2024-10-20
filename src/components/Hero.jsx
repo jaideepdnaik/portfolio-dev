@@ -11,7 +11,7 @@ const Hero = () => {
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent">
               Backend Developer
             </span>
-            <p className="my-2 py-2 max-w-xl font-light tracking-tighter">{HERO_CONTENT}</p>
+            <p className="my-2 text-sm py-2 max-w-xl font-light tracking-tighter">{HERO_CONTENT}</p>
           </div>
         </div>
       </div>
