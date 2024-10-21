@@ -13,12 +13,12 @@ const Hero = () => {
             <span className="mx-4 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent">
               Backend Developer
             </span>
-            <p className="my-2 mx-4 text-justify text-sm py-2 max-w-xl font-light tracking-tighter">
+            <p className="my-2 mb-6 mx-4 text-justify text-sm py-2 max-w-xl font-light tracking-tighter">
               {HERO_CONTENT}
             </p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 mb-10">
           <div className="flex justify-center">
             <img
               src={profilePicture}
