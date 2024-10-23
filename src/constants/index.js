@@ -26,37 +26,44 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "User Management System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a user management system with authentication, registration, password hashing, and session management using Docker, MySQL, Socket.io, and JWT.",
+    technologies: ["JavaScript", "Express.js", "HTML", "CSS", "Node.js", "MySQL"],
   },
   {
-    title: "Task Management App",
+    title: "Cyberbullying Detection System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Built a cyberbullying detection system using Python for backend and React for frontend, leveraging BERT and ResNet50 models to analyze video content and detect bullying.",
+    technologies: ["Python", "React.js"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["JavaScript", "TailwindCSS", "React", "Vite", "Framer Motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "Disaster Management System (DBMS Project)",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed a disaster management database system using Java and MySQL.",
+    technologies: ["Java", "MySQL"],
+  },
+  {
+    title: "Helping Hands (A Disaster Safety Application)",
+    image: project1,
+    description:
+      "Disaster forecasting, evacuation assistance, and volunteer coordination for affected individuals.",
+    technologies: ["Java", "Android Studio", "Firebase"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Karnataka, Dakshina Kannada, Sullia-574239",
+  phoneNo: "9108019265",
+  email: "jaideepchinnu3@gmail.com",
 };
