@@ -64,6 +64,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Karnataka, Dakshina Kannada, Sullia-574239",
-  phoneNo: "9108019265",
+  phoneNo: "+91 9108019265",
   email: "jaideepchinnu3@gmail.com",
 };
