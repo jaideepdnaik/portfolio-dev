@@ -29,7 +29,12 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="#" className="border-b">
+        <a
+          href={`mailto:${CONTACT.email}`}
+          target="blank"
+          rel="noopener noreferrer"
+          className="border-b"
+        >
           {CONTACT.email}
         </a>
       </div>
