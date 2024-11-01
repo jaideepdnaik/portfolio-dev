@@ -20,7 +20,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-8 text-6xl mx-6 font-thin tracking-tight lg:mt-10 lg:text-6xl"
+              className="pb-8 text-6xl mx-6 font-thin tracking-tight lg:mt-10 lg:text-6xl whitespace-nowrap"
             >
               Jaideep D Naik
             </motion.h1>
